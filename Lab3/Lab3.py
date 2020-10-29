@@ -14,7 +14,7 @@ def Task1():
     b = int(input("input b: "))
     c = int(input("input c: "))
 
-    D = b ^ 2 - 4 * a * b
+    D = b ** 2 - (4 * a * c)
     if D < 0:
         print("Корней нет")
         return
@@ -28,7 +28,13 @@ def Task1():
 def Task2():
     a = int(input("input a: "))
     b = int(input("input b: "))
-    x = int(input("input c: "))
+    z = int(input("input z: "))
+
+    x = 0
+    if z <= 0:
+        x = z ** 2 + 1
+    if z > 0:
+        x = math.sqrt(z)
 
     print("Выберете функцию")
     print("1: 2x")
@@ -36,7 +42,7 @@ def Task2():
     print("3: x/3")
 
     f = int(input("input c: "))
-    fx
+    fx = 0
     if f == 1:
         fx = Task2Fun1(x)  
     if f == 2:
@@ -44,7 +50,7 @@ def Task2():
     if f == 3:
         fx = Task2Fun3(x)  
     f1 = (b * fx) / (math.cos(x))
-    f2 = a * math.log10(math.fabs(math.tan(x / 2)))
+    f2 = a * math.log10(abs(math.tan(x / 2)))
     print("Результат: ", f1 + f2)
 
 print("Lab 1. Performed by Vlad Kolosov.")
@@ -55,5 +61,5 @@ print("2: Индивидуальное задание")
 a = int(input("Выберите цифру: "))
 if(a == 1):
     Task1()
-if(a==2):
+if(a == 2):
     Task2()
