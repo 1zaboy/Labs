@@ -1,5 +1,8 @@
 import math
 
+print("Lab 3. Performed by Vlad Kolosov.")
+print()
+
 def Task2Fun1(x):
     return x * 2
 

@@ -1,6 +1,7 @@
 import math
 
 print("Lab 2. Performed by Vlad Kolosov.")
+print()
 
 #x = input("input x: ")
 #y = input("input y: ")

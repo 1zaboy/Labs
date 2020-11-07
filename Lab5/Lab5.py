@@ -1,3 +1,6 @@
+print("Lab 5. Performed by Vlad Kolosov.")
+print()
+
 def fibonacci(n):
     if n == 0: return 0
     cur = 1

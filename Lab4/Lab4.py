@@ -1,5 +1,6 @@
 import random
 print("Lab 4. Performed by Vlad Kolosov.")
+print()
 print("Try to Guess the Number")
 print("You need to guess a number between 0 and 100")
 print("\n")
