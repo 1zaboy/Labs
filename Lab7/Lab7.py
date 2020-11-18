@@ -1,4 +1,4 @@
-print("Lab 6. Performed by Vlad Kolosov.")
+print("Lab 7. Performed by Vlad Kolosov.")
 print()
 
 a_list = [1, 1.2, True, "str&ASDASD&asdas", [1, 2, 3], int(1), int(1)]

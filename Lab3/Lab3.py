@@ -56,7 +56,6 @@ def Task2():
     f2 = a * math.log10(abs(math.tan(x / 2)))
     print("Результат: ", f1 + f2)
 
-print("Lab 1. Performed by Vlad Kolosov.")
 
 print("1: Отсновное задание")
 print("2: Индивидуальное задание")
